@@ -1337,7 +1337,6 @@ public class FailableFunctionsTest {
         assertTrue(cause instanceof SomeException);
         assertEquals("Odd Invocation: 1", cause.getMessage());
         final boolean instance = predicate.test(null);
-        assertNotNull(instance);
     }
 
     @Test
